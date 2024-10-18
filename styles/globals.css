@@ -1,0 +1,75 @@
+/* styles/globals.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background color */
+    height: 100vh; /* Full height for body */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Dark text color */
+  }
+  
+  h2 {
+    color: #555; /* Slightly lighter text color */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px; /* Max width for the list */
+    margin: 20px auto; /* Center the list */
+  }
+  
+  li {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  }
+  
+  button:hover {
+    opacity: 0.9; /* Slight opacity on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .task-high {
+    background-color: #ffcccc; /* Red for high priority */
+  }
+  
+  .task-medium {
+    background-color: #fff3cd; /* Yellow for medium priority */
+  }
+  
+  .task-low {
+    background-color: #d4edda; /* Green for low priority */
+  }
+  
+  .task-high:hover {
+    background-color: #ffb3b3; /* Darker red on hover */
+  }
+  
+  .task-medium:hover {
+    background-color: #ffeeba; /* Darker yellow on hover */
+  }
+  
+  .task-low:hover {
+    background-color: #c3e6cb; /* Darker green on hover */
+  }
+  
+  .completed {
+    text-decoration: line-through; /* Line through completed tasks */
+    color: grey;
+  }
+  
